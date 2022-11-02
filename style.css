@@ -1,0 +1,97 @@
+body {
+  background-color: #61764B;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Lora', serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-green {
+  color: white;
+  background-color: #9E7676;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgb(50 50 50 / 10%);
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 3px lightgrey;
+}
